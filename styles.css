@@ -1,0 +1,47 @@
+body {
+    background-color: lightgray;
+}
+
+button {
+    margin: 10px;
+    border-radius: 10%;
+    border: 1px black solid;
+}
+
+
+#button-hyper-container {
+    text-align: center;
+}
+
+#button-container {
+    background-color: white;
+    border: 2px solid black;
+    margin: 5px;
+    text-align: center;
+    display: inline;
+    padding: 10px;
+    box-shadow: 5px 5px 15px -1px #000000;
+}
+
+#dice-container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid black;
+    box-shadow: 5px 5px 15px -1px #000000;
+}
+
+.die {
+    width: 100px;
+    height: 100px;
+    font-size: 80px;
+    background-color: white;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 5%;
+    text-align: center;
+    box-shadow: 5px 5px 15px -1px #000000;
+}
