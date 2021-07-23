@@ -38,7 +38,7 @@ class Die {
     };
 
     delete = function () {
-        dice.splice(dice.find(i => i === this), 1);
+        dice.splice(dice.indexOf(this), 1);
         this.html.remove();
     };
 }
